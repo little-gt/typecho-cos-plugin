@@ -4,7 +4,7 @@
 
 - 依赖 PHP 5.6+ 环境
 
-- 已测试Typecho版本：1.2.0、1.2.1-rc.2(测试版)
+- 已测试Typecho版本：1.2.0、1.3.0
 
 ## 1.插件介绍
 > Typecho COS插件是由苏苏开发的，提供给Typecho用户使用的插件。实现网站静态资源存储到腾讯云COS，有效降低本地存储负载，提升用户体验。
@@ -13,7 +13,7 @@
 | ---------- | ------------------------------------------------------------ |
 | 中文名称   | 腾讯云对象存储（COS）插件                                  |
 | 英文名称   | Typecho-Cos-Plugin                                 |
-| 最新版本   | 1.0.4 (2023.05.30)                                     |
+| 最新版本   | 1.0.5 (2026.06.19)                                   |
 | 适用平台   | [Typecho](https://typecho.org/)                     |
 | 适用产品   | [腾讯云对象存储（COS）](https://cloud.tencent.com/product/cos)       |
 | GitHub项目 | [TypechoCosPlugin](https://github.com/cnhongv/typecho-cos-plugin) |
@@ -72,6 +72,10 @@
 > 4. 是否有开启防盗链功能；
 
 ## 7.版本迭代记录
+
+### 2026.06.19 TypechoCosPlugin v1.0.5
+- 修复：在typecho1.3.0版本下，导致server error的问题
+- 优化：cos-sdk更新至v2.6.16
 
 ### 2023.05.30 TypechoCosPlugin v1.0.4
 - 修复：php8.1白屏
